@@ -71,7 +71,6 @@ Access the /image API through Postman by configuring the following.
 Set method to POST and set key as image file and upload your file and send it!
 
 The uploaded image should be returned with the detections now drawn.
-![postman](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/data/helpers/image_api_response.PNG)
 
 #### Accessing Detections API with Curl 
 To access and test the API through Curl, open a second command prompt or shell (may have to run as Administrator). Then cd your way to the root folder of this repository (Object-Detection-API) and run the following command.
@@ -106,18 +105,6 @@ python detect_video.py --video path_to_file.mp4 --output ./detections/output.avi
 ```
 Then you can find the detections in the `detections` folder.
 <br>
-You should see these two images saved for running the first command.
-```
-detection1.jpg
-```
-![demo](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/detections/detection1.jpg)
-```
-detection2.jpg
-```
-![demo](https://github.com/theAIGuysCode/Object-Detection-API/blob/master/detections/detection2.jpg)
-
-### Video example
-![demo](https://github.com/heartkilla/yolo-v3/blob/master/data/detection_examples/detections.gif)
 
 ### References
-!(https://github.com/theAIGuysCode/Object-Detection-API)
+https://github.com/theAIGuysCode/Object-Detection-API
