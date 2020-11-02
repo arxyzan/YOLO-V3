@@ -1,8 +1,8 @@
 from absl import app, flags, logging
 from absl.flags import FLAGS
 import numpy as np
-from yolo.models import YoloV3, YoloV3Tiny
-from yolo.utils import load_darknet_weights
+from yolov3.models import YoloV3, YoloV3Tiny
+from yolov3.utils import load_darknet_weights
 
 flags.DEFINE_string('weights', 'weights/yolov3.weights', 'path to weights file')
 flags.DEFINE_string('output', 'weights/yolov3.tf', 'path to output')

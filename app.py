@@ -3,11 +3,11 @@ from absl import app, logging
 import cv2
 import numpy as np
 import tensorflow as tf
-from yolo.models import (
+from yolov3.models import (
     YoloV3, YoloV3Tiny
 )
-from yolo.dataset import transform_images, load_tfrecord_dataset
-from yolo.utils import draw_outputs
+from yolov3.dataset import transform_images, load_tfrecord_dataset
+from yolov3.utils import draw_outputs
 from flask import Flask, request, Response, jsonify, send_from_directory, abort
 import os
 
